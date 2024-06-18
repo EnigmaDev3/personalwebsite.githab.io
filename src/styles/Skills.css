@@ -1,0 +1,62 @@
+.skills {
+    padding: 50px 50px 18px;
+    margin-bottom: 64px;
+  }
+  
+  .frontend-container,
+  .languages-container {
+    background-color: #fff; 
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2); 
+    padding: 20px;
+    margin-bottom: 30px; 
+  }
+  
+  .frontend-container h1,
+  .languages-container h1 {
+    margin: 0 0 5px 0; 
+  }
+  
+  .frontend-skills {
+    color: black; 
+    font-weight: bold;
+    margin-bottom: 5px; 
+    font-size: 18px;
+  }
+  
+  .language {
+    margin-bottom: 20px; 
+  }
+  
+  .name {
+    color: black; 
+    font-weight: bold;
+    font-size: 1.2em; 
+    margin-bottom: 5px; 
+  }
+  
+  .level-container {
+    background-color: #ddd;
+    height: 20px;
+    position: relative; 
+    border-radius: 10px; 
+  }
+  
+  .level {
+    background-color: #00BFFF;
+    height: 100%;
+    border-radius: 10px; 
+    position: relative;
+  }
+  
+  .percentage {
+    position: absolute;
+    right: 0; 
+    top: -25px; 
+    
+    background-color: #00BFFF; 
+    border-radius: 50%; 
+    color: white;
+    padding: 5px; 
+    transform: translateX(50%); 
+  }
+  

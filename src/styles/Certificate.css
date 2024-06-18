@@ -1,0 +1,22 @@
+.certificates-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    margin-top: 70px;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    margin-bottom: 37px;
+  }
+  
+  .certificate-image {
+    
+    width: 280px; 
+    height: auto; 
+  }
+  
+  .certificate-caption {
+    text-align: center; 
+  }
+  

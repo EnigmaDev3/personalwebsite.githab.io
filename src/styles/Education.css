@@ -1,0 +1,89 @@
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  
+  .timeline {
+    position: relative;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .uni, .dop {
+    background-color: #fff; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 30px; 
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    position: relative;
+  }
+  
+  .uni .content, .dop .content {
+    position: relative;
+  }
+  
+  .uni::before, .dop::before {
+    content: '';
+    position: absolute;
+    left: -20px; 
+    top: 0;
+    bottom: 0;
+    width: 4px; 
+    background: #ddd; 
+  }
+  
+  .uni .content::before, .dop .content::before {
+    content: '';
+    position: absolute;
+    top: 15px; 
+    left: -34px; 
+    width: 20px;
+    height: 20px;
+    background-color: #fff; 
+    border: 4px solid #ddd; 
+    border-radius: 50%; 
+  }
+  
+  .uni {
+    margin-bottom: 60px; 
+  }
+  
+  .uni .content {
+    border-left: 4px solid transparent; 
+  }
+  
+  .dop .content {
+    border-left: 4px solid transparent; 
+  }
+  
+  .uni .content::before {
+    top: 15px; 
+  }
+  
+  .dop .content::before {
+    top: 15px; 
+  }
+  
+  h1 {
+    margin: 0 0 15px 0; 
+    font-size: 1.5em; 
+  }
+  
+  span {
+    font-size: 1.2em; 
+  }
+  
+ 
+  .timeline::after {
+    content: '';
+    display: block;
+    height: 30px; 
+    width: 4px;
+    background: #ddd; 
+    margin: 0 auto; 
+  }
+  
