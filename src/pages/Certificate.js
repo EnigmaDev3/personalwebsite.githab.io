@@ -13,6 +13,11 @@ const Certificate = () => {
         <img src={cert} alt='Analytics Course' className='certificate-image' />
         <p className='certificate-caption'>Data Analytics курс от Napoleon</p>
       </div>
+      <div className='certificate'>
+        <img src={test} alt='Analytics Course' className='certificate-image' />
+      
+        <p className='certificate-caption'>QA-тестировщик курс от центра развития цифровых технологий</p>
+      </div>
     </div>
   )
 }
